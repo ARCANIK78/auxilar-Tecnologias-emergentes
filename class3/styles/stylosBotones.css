@@ -1,0 +1,18 @@
+.botones button{
+    all:unset;
+    padding: 10px 20px;
+    background-color: var(--color-claro);
+    cursor: grab;
+    border-radius: 5px;
+    color: var(--color-negro);
+}
+.botones{
+    margin-top: 30px;
+}
+.botones button:hover{
+    outline:  1px solid var(--color-gris);
+}
+.botones p{
+    color: var(--color-negro);
+    font-size: 14px;
+}

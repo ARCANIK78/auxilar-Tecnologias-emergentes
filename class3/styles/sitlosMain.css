@@ -1,0 +1,45 @@
+main{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.buscador-bar .label-buscador{
+    display: block;
+    border: 1px solid var(--color-gris);
+    padding: 10px 15px;
+    border-radius: 100px;
+    width: 584px;
+    overflow: hidden;
+}
+.buscador-bar .label-buscador:hover{
+    box-shadow: 0 0 3px var(--color-gris);
+}
+.buscador-bar .label-buscador img{
+    vertical-align: middle;
+}
+.label-buscador .icon-buscar, .label-buscador input{
+    float: left;
+    margin-right: 10px;
+    vertical-align: middle   ;
+}
+.label-buscador a{
+    float: right;
+}
+.label-buscador input{
+    font-size: 16px;
+    border: none;
+    width: 80%;
+}
+.label-buscador input:focus{
+    outline: none;
+}
+
+
