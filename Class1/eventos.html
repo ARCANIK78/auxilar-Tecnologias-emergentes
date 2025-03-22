@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.html" method="post">
+        <fieldset>
+            <legend>Eventos</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required>
+            <select name="evento" id="evento">
+                <option value="1">La purga con la IA</option>
+                <option value="2">Microsft binario</option>
+                <option value="3">Assembler 2</option>
+            </select>
+            <label for="ciudad">Ciudad:</label>
+            <input list="ciudades" name="ciudad" id="ciudad" required>
+            <datalist id="ciudades">
+                <option value="Bolivia">
+                <option value="Guadalajara">
+                <option value="Monterrey">
+            </datalist>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
