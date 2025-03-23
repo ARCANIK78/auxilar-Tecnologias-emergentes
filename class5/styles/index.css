@@ -1,0 +1,32 @@
+:root{
+    --color-negro: #232a31;
+    --color-azul: #1a9dab;
+    --color-gris: #525252;
+    --color-gris-5b: #525252b5 ;
+}
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    height: 60px;
+    width: 100%;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav{
+    display: flex;
+    column-gap: 20px;
+}
+
