@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --bg-color: rgba(47,23,15,0.9);
+    --second-bg-color: #df902a;
+    --text-color: #e1e1e1;
+    --hover-color: rgba(255,255,255,0.4);
+    --font-sans: "Open Sans", sans-serif;
+    --font-pacifico: "Pacifico", cursive;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: var(--font-sans);
+}
+
+.container{
+    max-width: 10rem;
+    padding: 1rem;
+    margin: 0 auto;
+}
+.btn{
+    display:  inline-block;
+    padding: 2rem 3rem;
+    background-color: var(--second-bg-color);
+    border-radius: 1rem;
+    font-weight: 600;
+    color: var(--bg-color);
+    font-size: 1.8rem;
+    transition-duration: 0.3s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.title2{
+    font-family: var(--font-pacifico);
+    font-size: 4rem;
+    text-align: center;
+    margin: 3rem 0; 
+}
+#bg-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.Header{
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+.Header-logo{
+    margin: 3rem 0;
+}
+.Header-logo h1{
+    color: var(--second-bg-color);
+    font-family: var(--font-pacifico);
+    font-size: 4rem;
+}
+.Header-logo h2{
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-size: 3rem;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--bg-color);
+    padding: 2rem;
+}
+.navbar a{
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar a:hover{
+    color: var(--second-bg-color);
+}

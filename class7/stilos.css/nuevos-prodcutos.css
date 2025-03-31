@@ -1,0 +1,45 @@
+:root{
+    --bg-color: rgba(47,23,15,0.9);
+    --second-bg-color: #df902a;
+    --text-color: #e1e1e1;
+    --hover-color: rgba(255,255,255,0.4);
+    --font-sans: "Open Sans", sans-serif;
+    --font-pacifico: "Pacifico", cursive;
+}
+.new-producto{
+    padding: 6rem 0;
+    width: 100%;
+    background-image: url(../recursos/images/bg-img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+} 
+.producto-contenct{
+    position: relative;
+}
+.producto-contenct img{
+    width: 100%;
+
+}
+.product-info{
+    position: absolute;
+    top: 0;
+    right: 0;
+    top: 30px;
+    width: 40rem;
+    text-align: center;
+    
+}
+.product-info .title2{
+    margin-bottom: 2rem ;
+    font-family: 4rem;
+}
+.product-info p{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+.product-info .btn{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}

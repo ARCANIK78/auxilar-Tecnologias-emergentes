@@ -1,0 +1,43 @@
+:root{
+    --bg-color: rgba(47,23,15,0.9);
+    --second-bg-color: #df902a;
+    --text-color: #e1e1e1;
+    --hover-color: rgba(255,255,255,0.4);
+    --font-sans: "Open Sans", sans-serif;
+    --font-pacifico: "Pacifico", cursive;
+}
+.best-sellers{
+    background-image: url(../recursos/images/bg-img1.jpg);
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 3rem 0;
+}
+.card-contenido{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    align-content: center;
+    gap: 2rem;
+}
+.best-sellest-item{
+    background-color: var(--hover-color);
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+.best-sellest-item img{
+    width: 80%;
+    border-radius: 1rem;
+}
+.best-sellest-item h3{
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+.best-sellest-item p{
+    margin: 2rem 0;
+
+}
+.best-sellest-item .btn{
+    padding: 1rem 2rem;
+}
