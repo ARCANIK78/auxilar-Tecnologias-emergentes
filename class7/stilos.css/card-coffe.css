@@ -20,6 +20,13 @@
     align-content: center;
     gap: 2rem;
 }
+@media (max-width:576px){
+    .card-contenido{
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+    
+}
 .best-sellest-item{
     background-color: var(--hover-color);
     padding: 3rem 2rem;

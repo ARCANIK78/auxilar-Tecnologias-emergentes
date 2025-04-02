@@ -38,6 +38,43 @@
     "footer-text footer-text footer-text footer-text";
     gap:2rem;
 }
+@media (max-width:992px){
+    .footer-contenet{
+        grid-template-areas: 
+        "footer-logo footer-logo footer-logo footer-about footer-about "
+        "social-media social-media social-media footer-about footer-other "
+        ". . . footer-other footer-other "
+        ". . . footer-other footer-other "
+        "social-media social-media footer-about  footer-other"
+        "footer-text footer-text footer-text footer-text footer-text";
+
+    }
+}
+@media (max-width:676px){
+    .footer-contenet{
+        grid-template-areas: 
+        "footer-logo footer-logo "
+        "social-media social-media "
+        "footer-about footer-other "
+        "footer-about footer-other "
+        "footer-text footer-text";
+
+    }
+}
+@media (max-width:420px){
+    .footer-contenet{
+        grid-template-areas: 
+        "footer-logo "
+        "social-media "
+        "footer-about "
+        "footer-text footer-text";
+        place-content: center;
+    }
+}
+
+
+
+
 .footer-logo{
     place-self: center;
 }

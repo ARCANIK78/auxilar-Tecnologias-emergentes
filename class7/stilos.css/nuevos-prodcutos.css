@@ -28,7 +28,17 @@
     right: 0;
     top: 30px;
     width: 40rem;
-    text-align: center;
+    text-align: center;   
+}
+@media (max-width: 992px){
+    .product-info{
+        top: 55%;
+        right: auto;
+        left: 50%;
+        width: 100%;
+        text-align: center;
+        transform: translateX(-50%);
+    }
     
 }
 .product-info .title2{
@@ -42,4 +52,18 @@
 .product-info .btn{
     background-color: var(--bg-color);
     color: var(--text-color);
+}
+@media (max-width:578px){
+    .product-info{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .product-info p{
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+    .product-info .btn{
+        font-size: 1.4rem;
+        padding: 1rem 2rem;
+    }
 }
