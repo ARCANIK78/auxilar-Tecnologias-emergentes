@@ -1,0 +1,17 @@
+.header{
+    background-image: url(../edu-path-recursos/images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 3rem;
+    height: 500;
+}
+@media (min-width: 578px ){
+    .header{
+        height: 70rem;
+    }
+}
+@media (min-width: 1200px ){
+    .header{
+        height: 100vh;
+    }
+}
