@@ -1,6 +1,5 @@
 document.writeln("<h1>problema 2</h1>")
 document.writeln("<h1>Output</h1>")
-
 let n1 = prompt("Ingrese 1");
 let n2 = prompt("Ingrese 2");
 n1 = Number(n1);
